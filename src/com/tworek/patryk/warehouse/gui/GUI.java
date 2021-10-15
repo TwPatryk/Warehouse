@@ -73,7 +73,7 @@ public class GUI {
                 productFromDataBase.setPieces(productFromDataBase.getPieces() + productPieces);
                 System.out.println("Product successfully added!");
             } catch (NumberFormatException e) {
-                System.out.println("Incorrect data!");
+                System.out.println("Incorrect data, try againt!");
                 addProduct();
             }
 
