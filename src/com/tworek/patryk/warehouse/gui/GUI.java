@@ -15,6 +15,7 @@ public class GUI {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void showMainMenu() {
+        System.out.println("Welcome to the Warehouse, select: ");
         System.out.println("1. Add product");
         System.out.println("2. Deliver product");
         System.out.println("3. Show all products");
@@ -83,6 +84,7 @@ public class GUI {
 
     }
     private static void addNewProduct(String productName) {
+        System.out.println("Enter category of the product: ");
         System.out.println("1. Cloth");
         System.out.println("2. Jewellery");
         String choose = scanner.next();
